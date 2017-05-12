@@ -8,6 +8,8 @@ function alpha(){
     return null;
 }
 
+alpha(1,"a",null, undefined, {})
+
 /**
  * SAMPLE OUTPUT
  * 
