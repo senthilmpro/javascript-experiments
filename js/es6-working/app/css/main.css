@@ -1,0 +1,14 @@
+.main-color {
+    color : #fdbb30
+}
+
+.main-heading {
+    font-size : 14px;
+    font-weight : bold
+}
+
+.main-text {
+    font-size : 14px;
+    color : inherit;
+}
+

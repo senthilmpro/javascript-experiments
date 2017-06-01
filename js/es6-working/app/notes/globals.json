@@ -1,0 +1,48 @@
+{
+   "globals":{
+      "INSTALLSTATUS":{
+         "INSTALLED":"INSTALLED",
+         "NOT_INSTALLED":"NOTINSTALLED",
+         "UNKNOWN":"UNKNOWN",
+         "PENDING":"PENDING",
+         "ERROR":"ERROR"
+      },
+      "AGENTNAME":{
+         "ASSET_COLLECTOR":"ASSET_COLLECTOR",
+         "EVENT_COLLECTOR":"EVENT_COLLECTOR",
+         "BRIDGE":"BRIDGE"
+      },
+      "ENROLLMENTSTATE":{
+         "ENROLLED":0,
+         "UNENROLLED":1,
+         "UNENROLL_FAILED":2
+      },
+      "RUNNINGSTATUS":{
+         "DEFAULT":-1,
+         "UPDATED":0
+      },
+      "COLOR":{
+         "SUCCESS":"Green",
+         "NOTFOUND":"Black",
+         "WARNING":"Orange",
+         "ERROR":"Red"
+      }
+   },
+   "defaults":{
+      "language":"en-US",
+      "encoding":"UTF-8",
+      "debug":"false",
+      "name":"Symantec Security Cloud",
+      "logging":false,
+      "browsers":{
+         "IE":11,
+         "Mozilla":40,
+         "Chrome":5
+      },
+      "font":{
+         "font-family":"Goudy Stout",
+         "font-style":"normal",
+         "font-weight":700
+      }
+   }
+}
